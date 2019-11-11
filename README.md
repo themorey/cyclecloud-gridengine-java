@@ -7,9 +7,11 @@ This project adds Java support to the Open Grid Engine supplied with Azure Cycle
 ## Prerequisites
 This example will use the sge-2011.11 version specifically compiled with support for Java.  
 	1. Use the Java compiled files OGE files named as follows (NOTE:  do not change the file names):  
-		      sge-2011.11j-64.tgz  
-		      sge-2011.11j-common.tgz  
-	2. The cyclecloud cli must be configured. Documentation is available here:  
+		    ```
+		    sge-2011.11j-64.tgz  
+		    sge-2011.11j-common.tgz  
+		    ```  
+	2. The cyclecloud cli must be configured. Documentation is available here:  
   [https://docs.microsoft.com/en-us/azure/cyclecloud/install-cyclecloud-cli](https://docs.microsoft.com/en-us/azure/cyclecloud/install-cyclecloud-cli)
 
 
