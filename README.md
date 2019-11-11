@@ -50,8 +50,8 @@ Similar to this tutorial in the documentation, new OGE-Java cluster type is no
 Configure and create the cluster in the UI, save it, and start it.
 
 ## Verify GridEngine version
-As an example, start a cluster in CycleCloud that has been configured and is named "test-uge" or whatever you want to name it. When the master node reaches the Started state (green), log into the node with the cyclecloud connect command.
-	cyclecloud connect master -c test-uge`
+As an example, start a cluster in CycleCloud that has been configured and is named "test-uge" or whatever you want to name it. When the master node reaches the Started state (green), log into the node with the cyclecloud connect command.  
+		`cyclecloud connect master -c test-uge`
 
 ```Last login: Tue Jan 29 20:37:14 2019 
 
