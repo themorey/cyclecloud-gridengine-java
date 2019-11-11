@@ -31,16 +31,16 @@ Processed:   1 | Transferred:   1 | Deleted:   0 | Failures:   0 | Average rate:
 Add the following lines to your gridengine.txt template and modify it to use the OGE-Java installers instead of the default.
 NOTE: The details in the configuration, particularly version, should match the installer file name.
 
-`[[[configuration]]]\
-    gridengine.make = sge\
-    gridengine.version = 2011.11j\
-    gridengine.root = /sched/sge/sge-2011.11j`\
+`[[[configuration]]]  
+    gridengine.make = sge  
+    gridengine.version = 2011.11j  
+    gridengine.root = /sched/sge/sge-2011.11j`  
 
 These configs will override the default gridengine version and installation location, as the cluster starts. It is not safe to move off of the /sched as it's a specifically shared nfs location in the cluster.
 
 
 ## Import the cluster template file
-Using the cyclecloud cli, import a cluster template from the modified gridengine.txt cluster template file.\
+Using the cyclecloud cli, import a cluster template from the modified gridengine.txt cluster template file.  
 	`cyclecloud import_cluster OGE-Java -c 'grid engine' -f gridengine.txt -t --force`
 
 Similar to this tutorial in the documentation, new OGE-Java cluster type is now available in the Create Cluster menu in the UI.
